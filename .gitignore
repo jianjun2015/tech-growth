@@ -27,3 +27,8 @@ hs_err_pid*
 !**/src/test/**/target/
 
 *.iml
+
+/0-base/base-template/.mvn/
+/0-base/base-template/mvnw
+/0-base/base-template/mvnw.cmd
+
