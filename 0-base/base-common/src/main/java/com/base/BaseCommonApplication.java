@@ -1,13 +1,13 @@
-package com.base.basetemplate;
+package com.base;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BaseTemplateApplication {
+public class BaseCommonApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(BaseTemplateApplication.class, args);
+        SpringApplication.run(BaseCommonApplication.class, args);
     }
 
 }

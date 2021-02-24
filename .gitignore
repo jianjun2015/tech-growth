@@ -32,3 +32,7 @@ hs_err_pid*
 /0-base/base-template/mvnw
 /0-base/base-template/mvnw.cmd
 
+/0-base/base-common/.mvn/
+/0-base/base-common/mvnw
+/0-base/base-common/mvnw.cmd
+

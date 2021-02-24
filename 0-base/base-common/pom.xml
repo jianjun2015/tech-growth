@@ -9,23 +9,15 @@
     </parent>
 
     <groupId>com.base</groupId>
-    <artifactId>base-template</artifactId>
+    <artifactId>base-common</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>base-template</name>
+    <name>base-common</name>
     <description>子模块模板</description>
     <properties>
         <java.version>1.8</java.version>
-        <common.version>0.0.1-SNAPSHOT</common.version>
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>com.base</groupId>
-            <artifactId>base-common</artifactId>
-            <version>${common.version}</version>
-            <scope>compile</scope>
-        </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -39,18 +31,9 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
+            <scope>provided</scope>
+            <version>1.18.16</version>
         </dependency>
-
-        <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-swagger2</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-swagger-ui</artifactId>
-        </dependency>
-
     </dependencies>
 
     <build>
