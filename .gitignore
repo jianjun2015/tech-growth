@@ -36,3 +36,7 @@ hs_err_pid*
 /0-base/base-common/mvnw
 /0-base/base-common/mvnw.cmd
 
+/1-jvm/base-debug/.mvn/
+/1-jvm/base-debug/mvnw
+/1-jvm/base-debug/mvnw.cmd
+
